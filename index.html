@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyApp - Download</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #f8fafc;
+  background: #0b1020;
+}
+
+.card {
+  width: 100%;
+  max-width: 560px;
+  padding: 42px 28px;
+  text-align: center;
+  background: #141b2d;
+  border: 1px solid #29344d;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px #0005;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  background: #253a69;
+  color: #9db7ff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 14px;
+  font-size: 34px;
+}
+
+p {
+  color: #aab6cc;
+  line-height: 1.8;
+}
+
+.download {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 17px 28px;
+  border-radius: 12px;
+  background: #6385ff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.download:hover {
+  background: #496df0;
+  transform: translateY(-2px);
+}
+
+.info {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #8998b3;
+}
+
+footer {
+  margin-top: 28px;
+  color: #78859c;
+  font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="logo">M</div>
+
+    <h1>MyApp for Windows</h1>
+
+    <p>
+      Tải MyApp về máy tính Windows.
+      Nhanh chóng, đơn giản và tiện lợi.
+    </p>
+
+    <a class="download"
+       href="https://github.com/Late/myapp-download/releases/latest/download/MyApp.exe">
+       ↓ TẢI XUỐNG MIỄN PHÍ
+    </a>
+
+    <div class="info">
+      Phiên bản 1.0.0<br>
+      Hệ điều hành: Windows<br>
+      Định dạng: EXE
+    </div>
+  </main>
+
+  <footer>© 2026 MyApp. All rights reserved.</footer>
+</body>
+</html>
